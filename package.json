@@ -24,7 +24,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://bam-j.github.io/pages/",
+  "homepage": "https://cocomong98.github.io/SLEWEB_ver.2/",
   "eslintConfig": {
     "extends": [
       "react-app",
