@@ -1,9 +1,9 @@
-import './App.css';
+import Routers from './Router';
 
 function App() {
   return (
     <>
-      페이지 테스트
+      <Routers />
     </>
   );
 }
