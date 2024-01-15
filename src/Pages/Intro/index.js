@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const Whole = styled.div`
     height : 100vh;
+    background-color : whitesmoke;
 `
 
 const Intro = () => {

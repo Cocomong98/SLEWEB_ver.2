@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -6,12 +8,12 @@ import Intro from './Pages/Intro';
 
 const Routers = () => {
   return (
-    <Router>
+    <Router basename="/SLEWEB_ver.2">
       <Routes>
         {/* 전체를 감싸는 Header */}
-        <Route path="" element={<TopBar />} />
-        {/* 기본적으로 Intro를 렌더링하도록 설정 */}
-        <Route path="/" element={<Intro />} />
+        {/* <Route path="" element={<TopBar />} /> */}
+          {/* 기본적으로 Intro를 렌더링하도록 설정 */}
+          <Route path="/" element={<Intro />} />
       </Routes>
     </Router>
   );
