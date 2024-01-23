@@ -1,15 +1,13 @@
 import styled from "styled-components";
 
 const Whole = styled.div`
-    height : 10vh;
-    width : 100vw;
-    background-color : greenyellow;
-    `
+    height: 10vh;
+    width: 100vw;
+    background-color: greenyellow;
+`;
 
 const TopBar = () => {
-    return(
-        <Whole/>
-    );
+    return <Whole />;
 };
 
 export default TopBar;
