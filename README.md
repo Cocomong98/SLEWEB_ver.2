@@ -8,6 +8,7 @@
 - Capstone 2 로 인해 보류
 - 기획 변경 (종료)
 - 새로운 시작 논의 (240225)
+- version 2 로 재시작
 
 ## Built With
 
